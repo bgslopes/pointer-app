@@ -1,0 +1,5 @@
+---
+- hosts: pointer
+  become: true
+  roles:
+    - pointer-app
